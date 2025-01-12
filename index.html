@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Strength Checker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <div class="header">
+      <h1>Password Strength Checker</h1>
+      <button class="close-btn">X</button>
+    </div>
+    <p class="description">
+      Test your password's power with this simple strength checker! Get instant insights to create stronger, safer passwords for your online world.
+    </p><hr>
+    <div class="input-section">
+      <label for="password">Enter your password here:</label>
+      <input type="password" id="password" placeholder="Type your password">
+      <button id="check-btn">Check</button>
+    </div>
+    <div class="analysis">
+      <h3 class="he">Analysis....</h3>
+      <div class="results">
+        <div class="result-item">
+          <h3>Strength</h3>
+          <p id="strength"></p>
+        </div>
+        <div class="result-item">
+          <h3>Feedback</h3>
+          <ul id="feedback"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
